@@ -1,0 +1,139 @@
+.home {
+  margin-top: 45px;
+}
+.home a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.home .home-page {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 45px;
+  z-index: 50;
+  padding-bottom: 5px;
+  line-height: 45px;
+  background: #fb7299;
+}
+.home .home-page .home-list {
+  display: inline-block;
+  list-style: none;
+  flex: 1;
+  margin-left: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Microsoft Yahei;
+}
+.home .home-page .home-list.current i:after {
+  position: relative;
+  top: -9px;
+  display: block;
+  content: "";
+  width: 30px;
+  height: 4px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+.home .home-page .icon-2,
+.home .home-page .icon-1 {
+  text-align: center;
+  flex: 120px 0px 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+.home .home-page .icon-2 a,
+.home .home-page .icon-1 a {
+  text-decoration: none;
+}
+.home .home-search {
+  position: absolute;
+  right: 0;
+}
+.home .all-kinds {
+  position: fixed;
+  top: 45px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  width: 100%;
+}
+.home .all-kinds a {
+  font-size: 16px;
+  padding: 7px;
+}
+.home .title-1 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.home .title-1 i {
+  color: #fb7299;
+}
+.home .c-top .img {
+  position: relative;
+}
+.home .c-top .img p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.home .c-top .description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 5px;
+}
+.home .c-top .description .d-1 {
+  font-weight: 700;
+}
+.home .c-top .description .d-2 {
+  color: rgba(0, 0, 0, 0.75);
+}
+.home .content-1-1 {
+  display: inline-block;
+  width: 50%;
+  padding: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.home .content-1-1 .img {
+  position: relative;
+}
+.home .content-1-1 .img p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.home .content-1-1 .description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 5px;
+}
+.home .content-1-1 .description .d-1 {
+  font-weight: 700;
+}
+.home .content-1-1 .description .d-2 {
+  color: rgba(0, 0, 0, 0.75);
+}
+.home .distance {
+  background-color: rgba(0, 0, 0, 0.05);
+}
